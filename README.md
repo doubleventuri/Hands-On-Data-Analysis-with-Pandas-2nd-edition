@@ -89,6 +89,35 @@ $ cd Hands-On-Data-Analysis-with-Pandas-2nd-edition
 ~/Hands-On-Data-Analysis-with-Pandas-2nd-edition$ conda env create --file environment.yml
 ```
 
+# Python Data Analysis Workspace
+
+This workspace is set up for Python 3.9.13 and is ready for data analysis tasks using Jupyter notebooks and pandas.
+
+## Recommended Structure
+
+- `data/` — Store your datasets here
+- `notebooks/` — Jupyter notebooks for analysis
+- `src/` — Source code (scripts, modules)
+- `requirements.txt` — Python dependencies
+- `README.md` — Project documentation
+
+## Getting Started
+
+1. Create and activate a Python 3.9.13 environment (e.g., with conda or venv)
+2. Install dependencies: `pip install -r requirements.txt`
+3. Launch JupyterLab or Jupyter Notebook to start working
+
+---
+
+## requirements.txt
+- pandas
+- jupyter
+- numpy
+- matplotlib
+- seaborn
+
+Add more packages as needed for your class.
+
 ## Solutions
 Each chapter comes with exercises. The solutions for chapters 1-11 can be found [here](./solutions). Since the exercises in chapter 12 are open-ended, no solutions are provided.
 
